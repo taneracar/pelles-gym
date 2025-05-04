@@ -2,9 +2,9 @@ import MainWrapper from "@/components/wrappers/main-wrapper";
 import Image from "next/image";
 import React from "react";
 
-type Props = {};
 
-export default function Hero({}: Props) {
+
+export default function Hero() {
   return (
     <div className="w-full h-fit bg-bej">
       <MainWrapper>
